@@ -18,12 +18,12 @@ sudo make install
 
 ##Move nginx.conf to /usr/local/nginx/conf/nginx.conf
 
-#then execute nginx
+#start nginx
 sudo /usr/local/nginx/sbin/nginx
 
 #stopped with
 sudo /usr/local/nginx/sbin/nginx -s stop
 
 ##OBS settings##
-# Stream Service : Custom
-# Server	 : rtmp://<server ip>/live
+Stream Service : Custom
+Server	 : rtmp://server ip/live
